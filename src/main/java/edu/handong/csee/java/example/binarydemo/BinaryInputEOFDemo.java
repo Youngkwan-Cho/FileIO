@@ -17,8 +17,7 @@ public class BinaryInputEOFDemo {
 		String fileName = "numbers.dat";
 		
 		try {
-			ObjectInputStream inputStream = new ObjectInputStream(
-								new FileInputStream(fileName));
+			ObjectInputStream inputStream = new ObjectInputStream(new FileInputStream(fileName));
 			System.out.println("Reading the nonnegative integers");
 			System.out.println("in the file " + fileName);
 			while(true) {

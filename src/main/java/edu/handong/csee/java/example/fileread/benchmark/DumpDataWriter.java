@@ -17,7 +17,7 @@ public class DumpDataWriter {
     static String input10MB="input10MB.txt";
     static String input100MB="input100MB.txt";
     static String input1000MB="input1000MB.txt";
-
+    
     public static void main(String[] args) throws IOException {
         writeDumpData(input1MB, size1MB);
         writeDumpData(input10MB, size10MB);
